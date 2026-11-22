@@ -1,0 +1,17 @@
+MIS GASTOS - cómo ponerla en GitHub Pages
+
+1. Entra en github.com y crea un repositorio nuevo (por ejemplo "mis-gastos").
+2. Sube TODOS estos archivos a la raíz del repositorio:
+   index.html, manifest.json, sw.js, icon.svg, icon-192.png, icon-512.png
+3. Ve a Settings > Pages. En "Source" elige la rama "main" y la carpeta "/ (root)". Guarda.
+4. Espera 1 o 2 minutos. Tu página estará en:
+   https://TU-USUARIO.github.io/mis-gastos/
+5. Ábrela en el móvil:
+   - Android (Chrome): menú de los 3 puntos > "Instalar aplicación".
+   - iPhone (Safari): botón compartir > "Añadir a pantalla de inicio".
+
+Importante:
+- Los datos se guardan solo en el navegador de ese móvil u ordenador.
+- Usa "Guardar copia" de vez en cuando para no perderlos.
+- Si cambias algún archivo y no ves el cambio, sube el número en sw.js
+  (cambia "mis-gastos-v1" por "mis-gastos-v2").
